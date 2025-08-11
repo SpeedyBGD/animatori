@@ -23,14 +23,16 @@ export default function Home() {
       </section>
 
       {/* Categories */}
-      <section id="kategorije" className="mx-auto max-w-6xl px-6 py-14">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-8">Kako funkcioniše</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+      <section id="kategorije" className="bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-14">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-8">Kako funkcioniše</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-4">
           <CategoryCard color="#FFB74D" emoji="🏀" title="Sportski i takmičarski" />
           <CategoryCard color="#B39DDB" emoji="🧚" title="Disney i bajke" />
           <CategoryCard color="#64B5F6" emoji="🎩" title="Mađioničari i iluzionisti" />
           <CategoryCard color="#F48FB1" emoji="🎨" title="Kreativne radionice" />
           <CategoryCard color="#81C784" emoji="🎈" title="Baloni i face painting" />
+          </div>
         </div>
       </section>
 
