@@ -85,7 +85,7 @@ export default function Home() {
           </p>
           <div className="mt-8">
             <a
-              href="#"
+              href="/become-animator"
               className="inline-flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-white font-semibold hover:bg-blue-700 transition-colors shadow-sm"
             >
               POSTANI ANIMATOR
