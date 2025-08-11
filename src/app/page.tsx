@@ -35,10 +35,11 @@ export default function Home() {
       </section>
 
       {/* How it works */}
-      <section className="mx-auto max-w-6xl px-6 py-14">
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-12">Kako funkcioniše</h2>
+      <section className="bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-14">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-center mb-12">Kako funkcioniše</h2>
 
-        <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 text-center">
+          <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 text-center">
           <Step
             icon={<IconSearch />}
             title="1. Pretraži ponudu"
@@ -69,6 +70,7 @@ export default function Home() {
               </>
             }
           />
+          </div>
         </div>
       </section>
 
